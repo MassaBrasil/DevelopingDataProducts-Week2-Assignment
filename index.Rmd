@@ -54,11 +54,11 @@ For beer, there are some popular brands among locals - just mentioning some of t
 
 ## Report date
 
-```{r }
+```{r, echo=FALSE }
 date()
 ```
 
-```{r, echo=TRUE}
+```{r, echo=FALSE}
 
 library(leaflet)
 
