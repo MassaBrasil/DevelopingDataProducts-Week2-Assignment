@@ -83,22 +83,27 @@ my_map <-  my_map %>%
 
 my_map
 ```
+## Suggestion for stay and transportation
+
+A practical way to move around the city is to use Uber driver service (payable in credit card - with chip only)
+
+Stay in a hotel near subway station of lines yellow (linha 4) or green (linha 2) - train ticket is %$ 3,80 (less than 1,30 US dollar, no matter the distance).
+
+Avoid going far in suburbs - security surveillance and police patrol uses to be weak.
+
+Pre-paid mobile chip: you can buy chip with expiry date in one week with 2GB mobile data plan with 60 minutes of local calls. 
+
+Economic hotel brand available: Mercury, Ibis.
+
+Don´t' s:
+
+- show off mobile phone, wallet, jewery
+- approach odd grouping of people (begger, drug addicted)
+- go far alone 
+
+Do:
+- always let someone know where you go and the time you see that will be back
+- 
 
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
