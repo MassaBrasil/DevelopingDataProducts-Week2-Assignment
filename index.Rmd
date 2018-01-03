@@ -16,7 +16,7 @@ As largest city in South America, metropolitan food markets and some popular res
 
 (check before for holidays, as they can be closed). 
 
-### (1) CEAGESP :
+### (1) CEAGESP 
 
 When you have available in agenda Saturday or Sunday from 6am to 12pm, go to CEAGESP, kind of city food market - there you can find some interesting local/regional foods and traits - stroll from stand to stand trying (for free) bites of fresh fruits - different banana types - gold (banana ouro), 'apple-ish' (ban.. maçã, pronounce mah-sahn), 'silver-ish' (ban.. prata), orange types 'pear-ish' (laranja pera); 
 
@@ -54,11 +54,13 @@ For beer, there are some popular brands among locals - just mentioning some of t
 
 ## Report date
 
-```{r, echo=FALSE }
+```{r, eval=TRUE, echo=FALSE }
+
 date()
+
 ```
 
-```{r, echo=FALSE}
+```{r, echo=FALSE }
 
 library(leaflet)
 
