@@ -40,11 +40,11 @@ If you are keen to eat oriental food - steamed/boiled dumpling or hand made nood
 
 In two or three, you can have a confortant meal - starting with appetizer - 'joelho de porco' (sliced pork knee), 'prato misto' (sliced tofu, bovine stomach, muscle), 'mandu' (boiled meat dumpling filled with mix of nira leaves and ground meat) and dressing made in your bolw (a spoonful of vinegar, another of sesame oil, another of soy sauce and tea spoon of home made red pepper sauce - you will get addicted!! )
 
-Last round - suggestion is Chanpon Bowl (with peper sprinkled, otherwise you will taste a kind of sweet broth, I myself don´t like).
+Main meal - suggestion is Chanpon Bowl (order it with pepper, otherwise you will taste a kind of sweet broth, I myself don´t like that way).
 
 Some dishes are original from Korea, although restaurant is run by sympathetic Taiwanese brothers.
 
-For drinking, if you still didn´t taste Guaraná (gu-a-ra-naah), you must - it is a soft drink made of guaraná fruit (actually very bitter, told that natives use it as natural stimulant), very popular in Brazil.
+For drinking, if you still didn´t taste Guaraná (gu-a-rah-naah), you must - it is a soft drink made of guaraná fruit (actually very bitter, told that natives use it as natural stimulant), very popular in Brazil.
 
 For beer, there are some popular brands among locals - just mentioning some of them: Original, SerraMalte, Itaipava, Petropolis (I don´t like Kaiser).
 
@@ -83,6 +83,8 @@ my_map <-  my_map %>%
 
 my_map
 ```
+
+
 ## Suggestion for stay and transportation
 
 A practical way to move around the city is to use Uber driver service (payable in credit card - with chip only)
@@ -94,6 +96,10 @@ Avoid going far in suburbs - security surveillance and police patrol uses to be 
 Pre-paid mobile chip: you can buy chip with expiry date in one week with 2GB mobile data plan with 60 minutes of local calls. 
 
 Economic hotel brand available: Mercury, Ibis.
+
+## Exchange rate
+
+US$ 1 = ~ R$ 3,10 real (3/jan/2018)
 
 
 ## Do and dont's
