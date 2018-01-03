@@ -71,9 +71,12 @@ my_map <-  my_map %>%
              popup="(1) CEAGESP - city food market")
 
   
+my_map <-  my_map %>%
+
     addMarkers(lat=-23.5988153,lng=-46.6878927,
              popup="(2) Churrascaria Fogo de Chão")
 
+my_map <-  my_map %>%
 
     addMarkers(lat=-23.5555902,lng=-46.6338032,
              popup="(3) Restaurante Tenko")
