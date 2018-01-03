@@ -54,13 +54,13 @@ For beer, there are some popular brands among locals - just mentioning some of t
 
 ## Report date
 
-```{r, eval=TRUE, echo=FALSE }
+```{r }
 
 date()
 
 ```
 
-```{r, echo=FALSE }
+```{r  }
 
 library(leaflet)
 
@@ -93,7 +93,6 @@ A practical way to move around the city is to use Uber driver service (payable i
 
 Stay in a hotel near subway station of lines yellow (linha 4) or green (linha 2) - train ticket is %$ 3,80 (less than 1,30 US dollar, no matter the distance).
 
-Avoid going far in suburbs - security surveillance and police patrol uses to be weak.
 
 Pre-paid mobile chip: you can buy chip with expiry date in one week with 2GB mobile data plan with 60 minutes of local calls. 
 
@@ -112,6 +111,8 @@ Dont's:
 
 - approach odd grouping of people (begger, drug addicted)
 
+- go far in suburbs - security surveillance and police patrolling uses to be not sufficient.
+
 - go far alone without plan (even locals can easily get in trouble that way)
 
 Do:
@@ -122,5 +123,5 @@ Do:
 
 - before you go around, get written and keep with  yourself address of your stay place, phone numbers of acquaintances, consulate office, tourist support police station. 
 
-
+- if you can afford longer stays, use Sao Paulo as base to travel to other attraction cities in Brazil and South America - e.g. Foz do Iguaçu (Park of birds, Iguaçu Dam hidroelectric plant, Paraguai and Argentina borders), Buenos Aires and tango shows, preserved architecture, parrilla and wines, dulce de leche (milk sweet). 
 

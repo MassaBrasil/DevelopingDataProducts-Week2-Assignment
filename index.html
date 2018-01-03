@@ -140,7 +140,7 @@ $(document).ready(function () {
 <p>As largest city in South America, metropolitan food markets and some popular restaurants and bars are good way to blend with and feel the mood among locals trying to exercise some Portuguese.</p>
 <p>(check before for holidays, as they can be closed).</p>
 <div id="ceagesp" class="section level3">
-<h3>(1) CEAGESP :</h3>
+<h3>(1) CEAGESP</h3>
 <p>When you have available in agenda Saturday or Sunday from 6am to 12pm, go to CEAGESP, kind of city food market - there you can find some interesting local/regional foods and traits - stroll from stand to stand trying (for free) bites of fresh fruits - different banana types - gold (banana ouro), ‘apple-ish’ (ban.. maçã, pronounce mah-sahn), ‘silver-ish’ (ban.. prata), orange types ‘pear-ish’ (laranja pera);</p>
 <p>focusing in sweety brazilian fruits - jaca (jah-ka), green coconut water opened on the spot. Changing to a typical trait of Sao Paulo city, try pastel (deep fried thin dought filled of ground meat, cheese, ground chicken, special:egg, cheese,meat - the must are the dressings - on the stand ‘Miyazato’, try pastel de carne with the green dressing!!! if you like strong pepper, try the red one; it will be like boomerang, it´s highly possible that your pepper awareness be activated twice hahah !!).</p>
 <p>If you go to stand ‘Miyazato’, at its side you can find a truck extracting/selling sugar cane juice (caldo de cana) in large plastic cup with some lime juice - it´s worth to try fresh &amp; iced in the summer!!!</p>
@@ -168,10 +168,32 @@ $(document).ready(function () {
 </div>
 <div id="report-date" class="section level2">
 <h2>Report date</h2>
-<pre><code>## [1] &quot;Wed Jan 03 15:21:42 2018&quot;</code></pre>
+<pre class="r"><code>date()</code></pre>
+<pre><code>## [1] &quot;Wed Jan 03 15:27:12 2018&quot;</code></pre>
+<pre class="r"><code>library(leaflet)</code></pre>
 <pre><code>## Warning: package 'leaflet' was built under R version 3.4.3</code></pre>
-<div id="htmlwidget-967d1cc0ce098415e0a7" style="width:672px;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-967d1cc0ce098415e0a7">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"maxNativeZoom":null,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"continuousWorld":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[-23.5371994,-46.738026,null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"(1) CEAGESP - city food market",null,null,null,null,null,null]},{"method":"addMarkers","args":[-23.5988153,-46.6878927,null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"(2) Churrascaria Fogo de Chão",null,null,null,null,null,null]},{"method":"addMarkers","args":[-23.5555902,-46.6338032,null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"(3) Restaurante Tenko",null,null,null,null,null,null]}],"limits":{"lat":[-23.5988153,-23.5371994],"lng":[-46.738026,-46.6338032]}},"evals":[],"jsHooks":[]}</script>
+<pre class="r"><code>my_map &lt;- leaflet() %&gt;%
+  addTiles()
+
+my_map &lt;-  my_map %&gt;%
+
+    addMarkers(lat=-23.5371994,lng=-46.738026,
+             popup=&quot;(1) CEAGESP - city food market&quot;)
+
+  
+my_map &lt;-  my_map %&gt;%
+
+    addMarkers(lat=-23.5988153,lng=-46.6878927,
+             popup=&quot;(2) Churrascaria Fogo de Chão&quot;)
+
+my_map &lt;-  my_map %&gt;%
+
+    addMarkers(lat=-23.5555902,lng=-46.6338032,
+             popup=&quot;(3) Restaurante Tenko&quot;)
+
+my_map</code></pre>
+<div id="htmlwidget-9e55a907a9bae20e8c6d" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-9e55a907a9bae20e8c6d">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"maxNativeZoom":null,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"continuousWorld":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[-23.5371994,-46.738026,null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"(1) CEAGESP - city food market",null,null,null,null,null,null]},{"method":"addMarkers","args":[-23.5988153,-46.6878927,null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"(2) Churrascaria Fogo de Chão",null,null,null,null,null,null]},{"method":"addMarkers","args":[-23.5555902,-46.6338032,null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"(3) Restaurante Tenko",null,null,null,null,null,null]}],"limits":{"lat":[-23.5988153,-23.5371994],"lng":[-46.738026,-46.6338032]}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="suggestion-for-stay-and-transportation" class="section level2">
 <h2>Suggestion for stay and transportation</h2>
