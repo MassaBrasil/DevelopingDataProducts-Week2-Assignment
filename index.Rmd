@@ -1,0 +1,66 @@
+---
+title: "Developing Data Product-Week2-R Markdown and Leaflet"
+author: "MassaBrasil"
+date: "3rd Januar,  2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Taking chance to provide interesting info
+
+When have chance to spend some at least half a day layover in Sao Paulo (Brazil) I have some suggestions as spots that you can enjoy.
+
+As largest city in South America, metropolitan food markets and some popular restaurants and bars are good way to blend with and feel the mood among locals trying to exercise some Portuguese.
+
+(check before for holidays, as they can be closed). 
+
+### (1) CEAGESP :
+
+When you have available in agenda Saturday or Sunday from 6am to 12pm, go to CEAGESP, kind of city food market - there you can find some interesting local/regional foods and traits - stroll from stand to stand trying (for free) bites of fresh fruits - different banana types - gold (banana ouro), 'apple-ish' (ban.. maçã, pronounce mah-sahn), 'silver-ish' (ban.. prata), orange types 'pear-ish' (laranja pera); focusing in sweety brazilian fruits - jaca (jah-ka), green coconut water opened on the spot. Changing to a typical trait of Sao Paulo city, try pastel (of ground meat, cheese, ground chicken, special:egg, cheese,meat) with sugar cane juice (caldo de cana).
+
+### (2) Churrascaria Fogo de Chão 
+
+'Fogo de Chão' - means 'bonfire in the ground', where gauchos (those natives in region from South Brazil, Uruguay, and part of Argentina) set cattle cut piece in slow grilling for meals.
+
+If you can afford and like to eat grilled meat, it is a good chance to enjoy large  variety of meat cuts and distinct flavors, accompanied of also large variety of fresh greens, palm heart, preserved cheese. 
+
+You can harmonize with wines from South America (Argentinian, Chilean, Brazilian) and other regions.
+
+Remember to be stood up for desserts - Milk flan, milk caramel, fruit salad, - my best choice is blended papaya with cream ice cream with cassis liqueur generously poured on the  top! (refreshing, digestive).
+
+### Restaurant Tenko
+
+If you are keen to eat oriental food - steamed/boiled dumpling or hand made noodles on the broth enriched with vegetables, meat and seafood in a reasonably short budget, this is an excellent suggestion!
+
+In two or three, you can have a confortant meal - starting with appetizer - 'joelho de porco' (sliced pork knee), 'prato misto' (sliced tofu, bovine stomach, muscle), 'mandu' (boiled meat dumpling filled with mix of nira leaves and ground meat) and dressing made in your bolw (a spoonful of vinegar, another of sesame oil, another of soy sauce and tea spoon of home made red pepper sauce - you will get addicted!! )
+Last round - suggestion is Chanpon Bowl (with peper sprinkled, otherwise you will taste a kind of sweet broth, I myself don´t like).
+
+Some dishes are original from Korea, although restaurant is run by sympathetic Taiwanese brothers.
+
+For drinking, if you still didn´t taste Guaraná (gu-a-ra-naah), you must - it is a soft drink make of guaraná fruit, very popular in Brazil.
+
+For beer, there are some popular brands among locals - just mentioning some of them: Original, SerraMalte, Itaipava, Petropolis (I don´t like Kaiser)
+
+(My choices are SerraMalte and Original).
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
